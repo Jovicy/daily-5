@@ -1,0 +1,58 @@
+body {
+    background: grey;
+    color: honeydew;
+    font-family: cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+}
+
+#display {
+    width: 100%;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons {
+    text-align: center;
+}
+
+#startStop {
+    background: transparent;
+    color: black;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+}
+
+#startStop:hover {
+    background: white;
+}
+
+#reset:hover {
+    background: black;
+    color: white;
+}
+
+#reset {
+    background: transparent;
+    color: black;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+}
+
